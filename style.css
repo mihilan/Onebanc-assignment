@@ -1,0 +1,58 @@
+.header{
+  max-width: 800px;
+  height: 1000px;
+  margin: auto;
+  border: 2px solid #2d3030;
+
+}
+
+.headname{
+  display:flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 15px;
+  align-content: flex-start
+
+}
+
+.profile{
+  width : 75px;
+  height: 75px;
+  background-color: #32c7cf;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.profilename{
+  padding-left: 40px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width:800px;
+  height:900px;
+  border:1px solid #2d3030;
+}
+
+.card{
+  display:flex;
+  width: 400px;
+  height:150px;
+  border: 1px solid #2d3030;
+}
+
+.direction{
+  padding-left: 40px;
+}
+
+.sent{
+  margin-left: auto;
+}
+
+.next_page{
+  cursor: pointer;
+  align-items: center;
+  padding: 20px;
+  margin-left: auto;
+}
